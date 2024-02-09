@@ -17,11 +17,19 @@
 }
 
 .header-navbar {
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
 }
-.header-navbar :nth-child(5) {
-  margin-right: 20%;
+.header-navbar .header-navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header-navbar .header-navbar-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 10%;
 }
 
 * {
@@ -34,6 +42,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-right: 7%;
 }
 .header-button-wrapper a {
   color: black;

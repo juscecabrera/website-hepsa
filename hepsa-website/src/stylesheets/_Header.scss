@@ -18,10 +18,18 @@
 }
 
 .header-navbar {
-  display: flex;
-  justify-content: flex-start;
-  :nth-child(5) {
-    margin-right: 20%;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  .header-navbar-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header-navbar-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10%;
   }
 }
 
