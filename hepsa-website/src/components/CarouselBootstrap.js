@@ -1,40 +1,37 @@
-import React from "react";
-import "../stylesheets/main.css"
-import CarouselImage1 from "../images/carousel-image-1-example.jpeg";
-import CarouselImage2 from "../images/carousel-image-2-example.jpeg";
-import CarouselImage3 from "../images/carousel-image-3-example.jpeg";
+import Carousel from 'react-bootstrap/Carousel';
+import Carousel1 from "../images/carousel1.jpeg";
+import Carousel2 from "../images/carousel2.jpeg";
+import Carousel3 from "../images/carousel3.jpeg";
 
-function CarouselBootstrap () {
+
+function CarouselBootstrap() {
   return (
-    <div className="carousel-wrapper">
-      <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={CarouselImage1} class="d-block w-100" alt="CarouselImage1" />
-    </div>
-    <div class="carousel-item">
-      <img src={CarouselImage2} class="d-block w-100" alt="CarouselImage2" />
-    </div>
-    <div class="carousel-item">
-      <img src={CarouselImage3} class="d-block w-100" alt="CarouselImage3" />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  </div>
-    </div>
-  )
+    <Carousel>
+      <Carousel.Item>
+        <img src={Carousel1} />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={Carousel2} />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={Carousel3} />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
 export default CarouselBootstrap;
