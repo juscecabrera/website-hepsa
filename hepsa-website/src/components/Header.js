@@ -1,7 +1,7 @@
 import React from "react";
 import "../stylesheets/main.css"
 import HeaderButton from "./HeaderButton";
-import HepsaLogo from "../images/logo hepsa.PNG";
+import HepsaLogo from "../images/logohepsa.jpeg";
 
 function Header () {
     return (

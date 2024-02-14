@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/main.css";
-import LogoHepsa from "../images/logo hepsa.PNG";
+import HepsaLogo from "../images/logohepsa.jpeg";
 
 function Footer () {
     return (
@@ -13,7 +13,7 @@ function Footer () {
           <p>Número de Hepsa</p>
         </div>
         <div className="footer-info">
-          <img src={LogoHepsa}/>
+          <img src={HepsaLogo}/>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>

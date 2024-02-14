@@ -30,6 +30,9 @@
   flex-direction: row;
   justify-content: center;
   margin-right: 10%;
+  margin-left: 10%;
+  padding: 0;
+  width: 1%;
 }
 
 * {
@@ -99,4 +102,16 @@
   padding: 1%;
   padding-bottom: 0.5%;
   border-top: 1px solid black;
+}
+
+h3, p {
+  color: black;
+}
+
+.carousel-img {
+  margin-left: 40%;
+  width: 20%;
+  height: 20%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }/*# sourceMappingURL=main.css.map */
