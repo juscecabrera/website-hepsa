@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    background-color: #377db6;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h2, p {
+        grid-column: 1;
+        color: white;
+    }
+    .content-img-wrapper {
+        padding-top: 0;
+        grid-column: 2;
+        border-left: 1px solid white;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+    }
+}

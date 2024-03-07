@@ -8,7 +8,7 @@ function Header () {
       <div className="header-wrapper">
         <header>
           <div className="header-topbar">
-            <p>Perú, Lima</p>
+            <p>Lima, Perú</p>
             <p>|</p>
             <p>ventas@hepsa.com</p>
             <p>|</p>
