@@ -20,11 +20,17 @@ function Header () {
             <HeaderButton 
             text="Inicio" />
             <HeaderButton 
-            text="Nosotros" />
+            text="Nosotros" 
+            section = "#contentid"
+            />
             <HeaderButton 
-            text="Productos" />
+            text="Productos" 
+            section = "#productsid"
+            />
             <HeaderButton 
-            text="Contacto" />
+            text="Contacto" 
+            section ="#contactid"
+            />
             </div>
           </div>
         </header>

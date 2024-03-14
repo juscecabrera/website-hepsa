@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-wrapper {
+    padding: 40px 200px 50px 300px;
+    background-color: #569ed9;
+    h2 {
+        margin-bottom: 20px;
+    }
+    .contact-textarea-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        textarea {
+            padding: 5px 0 0 10px;
+            width: 300px;
+        }
+        :nth-child(5) {
+            padding: 5px 20px 40px 10px;
+        }
+        button {
+            width: 100px;
+            padding: 5px;
+            border: 0.5px solid black;
+            border-radius: 10px;
+        }
+    }
+}
