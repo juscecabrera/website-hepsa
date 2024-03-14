@@ -4,18 +4,32 @@
 }
 
 .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 40px 200px 50px 300px;
     background-color: #569ed9;
-    h2 {
-        margin-bottom: 20px;
+    .contact-text-wrapper {
+        grid-column: 1;
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
     }
-    .contact-textarea-wrapper{
+
+    .contact-input-wrapper{
+        background-color: white;
+        padding: 20px;
+        margin: 10px 170px 0 -10px;
+        grid-column: 2;
         display: flex;
         flex-direction: column;
         gap: 30px;
-        textarea {
-            padding: 5px 0 0 10px;
+        box-shadow: 1px 1px 20px rgb(0,0,0,0.4);
+        input {
+            padding: 10px;
             width: 300px;
+            border: 1px solid rgb(0,0,0,0.1);
+            border-radius: 10px;
         }
         :nth-child(5) {
             padding: 5px 20px 40px 10px;
