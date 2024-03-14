@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import CarouselBootstrap from './components/CarouselBootstrap';
 import Footer from './components/Footer';
-import Content from './components/Content';
+import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
 
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <CarouselBootstrap />
-      <Content />
+      <About />
       <Products />
       <Contact />
       <Footer />

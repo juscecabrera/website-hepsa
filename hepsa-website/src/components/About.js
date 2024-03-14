@@ -1,11 +1,10 @@
 import React from "react";
 import "../stylesheets/main.css";
-import HepsaLogo from "../images/logohepsa.jpeg";
 import ContentImg1 from "../images/contentimg1.jpg";
 import ContentImg2 from "../images/contentimg2.jpg";
 import ContentImg3 from "../images/contentimg3.jpg";
 
-function Content () {
+function About () {
     return(
         <>
         <div className="content-wrapper" id="contentid">
@@ -18,4 +17,4 @@ function Content () {
     )
 }  
 
-export default Content;
+export default About;

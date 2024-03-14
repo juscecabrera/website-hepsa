@@ -23,6 +23,11 @@
             width: 25%;
             height: 200px;
             margin-left: 15px;
+            border-radius: 10px;
+        }
+        img:hover {
+            transform: scale(1.03);
+            transition-duration: 0.7s;
         }
     }
 }

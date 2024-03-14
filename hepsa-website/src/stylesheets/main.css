@@ -170,6 +170,11 @@
   width: 25%;
   height: 200px;
   margin-left: 15px;
+  border-radius: 10px;
+}
+.content-wrapper .content-img-wrapper img:hover {
+  transform: scale(1.03);
+  transition-duration: 0.7s;
 }
 
 * {
@@ -199,6 +204,11 @@
   bottom: 80px;
   left: 35px;
   border-radius: 10px;
+}
+.products-wrapper img:hover {
+  transform-box: view-box;
+  transform: scale(1.03);
+  transition-duration: 1s;
 }
 
 * {
@@ -245,4 +255,8 @@
   padding: 5px;
   border: 0.5px solid black;
   border-radius: 10px;
+}
+.contact-wrapper .contact-input-wrapper button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.78s;
 }/*# sourceMappingURL=main.css.map */

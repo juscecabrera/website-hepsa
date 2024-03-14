@@ -23,6 +23,11 @@
         position: relative;
         bottom: 80px;
         left: 35px;
-        border-radius: 10px;
+        border-radius: 10px;   
+    }
+    img:hover {
+        transform-box:view-box;
+        transform: scale(1.03);
+        transition-duration: 1s;
     }
 }
