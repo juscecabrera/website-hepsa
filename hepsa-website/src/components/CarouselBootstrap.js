@@ -14,7 +14,7 @@ function CarouselBootstrap() {
         <div className="carousel-text-wrapper">
           <h3 className="carousel-h3">Imagen de Cilindros</h3>
           <p className="carousel-p">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <button>Contáctanos</button>
+          <a href="#contactid"><button>Contáctanos</button></a>
         </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -24,7 +24,7 @@ function CarouselBootstrap() {
           <div className="carousel-text-wrapper">
             <h3 className="carousel-h3">Imagen de cilindros</h3>
             <p className="carousel-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button>Contáctanos</button>
+            <a href="#contactid"><button>Contáctanos</button></a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -34,7 +34,7 @@ function CarouselBootstrap() {
         <div className="carousel-text-wrapper">
           <h3 className="carousel-h3">Imagen de cilindros</h3>
           <p className="carousel-p">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          <button>Contáctanos</button>
+          <a href="#contactid"><button>Contáctanos</button></a>
         </div>
         </Carousel.Caption>
       </Carousel.Item>

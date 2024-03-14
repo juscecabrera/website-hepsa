@@ -17,14 +17,16 @@
     }
 
     .contact-input-wrapper{
-        background-color: white;
-        padding: 20px;
-        margin: 10px 170px 0 -10px;
-        grid-column: 2;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
+        grid-column: 2;
+        background-color: white;
+        padding: 10px;
+        margin: 10px 170px 0 -10px;
+        height: 370px;
         box-shadow: 1px 1px 20px rgb(0,0,0,0.4);
+        border-radius: 10px;
         input {
             padding: 10px;
             width: 300px;

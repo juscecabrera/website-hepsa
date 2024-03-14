@@ -9,8 +9,8 @@ function Footer () {
         <div className="footer-contacto">
           <h3>Contacto</h3>
           <p>Dirección de Hepsa</p>
-          <p>Correo de Hepsa</p>
-          <p>Número de Hepsa</p>
+          <p>venta@hepsa.com.pe</p>
+          <p>999999999</p>
         </div>
         <div className="footer-info">
           <img src={HepsaLogo}/>  
