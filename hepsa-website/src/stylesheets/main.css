@@ -264,7 +264,7 @@
   transition-duration: 0.78s;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .header-wrapper .header-topbar {
     display: none;
   }
