@@ -20,7 +20,6 @@
     }
   }
   .header-navbar {
-
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     border-bottom: 1px solid black;
@@ -33,7 +32,7 @@
       }
     .header-navbar-logo {
       grid-column: 1/2;
-      img {
+      .header-navbar-logo-img {
         margin-left: 150px;
         width: 70%;
         margin-top: 10px;
@@ -41,6 +40,8 @@
       }
     }
   }
+
+  
 
 
 

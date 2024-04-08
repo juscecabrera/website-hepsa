@@ -35,7 +35,7 @@
 .header-wrapper .header-navbar .header-navbar-logo {
   grid-column: 1/2;
 }
-.header-wrapper .header-navbar .header-navbar-logo img {
+.header-wrapper .header-navbar .header-navbar-logo .header-navbar-logo-img {
   margin-left: 150px;
   width: 70%;
   margin-top: 10px;
@@ -149,6 +149,7 @@
 }
 
 .content-wrapper {
+  scroll-margin-block-start: 85px;
   background-color: #569ed9;
   padding: 4%;
 }
@@ -183,6 +184,7 @@
 }
 
 .products-wrapper {
+  scroll-margin-block-start: 125px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px 200px 0 215px;
@@ -217,6 +219,7 @@
 }
 
 .contact-wrapper {
+  scroll-margin-block-start: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 40px 200px 50px 300px;
@@ -259,4 +262,149 @@
 .contact-wrapper .contact-input-wrapper button:hover {
   transform: scale(1.1);
   transition-duration: 0.78s;
+}
+
+@media (max-width: 768px) {
+  .header-wrapper .header-topbar {
+    display: none;
+  }
+  .header-wrapper .header-navbar {
+    border: 0;
+  }
+  .header-wrapper .header-navbar .header-navbar-logo img {
+    width: 150%;
+    margin: 20px 0 0 70px;
+  }
+  .header-wrapper .header-button-wrapper {
+    margin-right: 0;
+  }
+  .container {
+    width: 60%;
+    margin-left: 20px;
+  }
+  .container .header-navbar-logo-img {
+    width: 350px;
+  }
+  .container .navbar-toggler {
+    margin-right: -180px;
+  }
+  .carousel-text-wrapper {
+    margin: 0;
+  }
+  .content-wrapper {
+    scroll-margin-block-start: 235px;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .content-wrapper .content-h2 {
+    display: inline;
+    margin-left: 270px;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .content-wrapper .content-p {
+    padding: 0;
+    margin: 30px 150px 20px 150px;
+    font-size: 20px;
+  }
+  .content-wrapper .content-img-wrapper {
+    margin: 10px 150px;
+    padding: 0;
+  }
+  .content-wrapper .content-img-wrapper img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .products-wrapper {
+    scroll-margin-block-start: 235px;
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .products-wrapper .products-h2 {
+    display: inline;
+    margin-left: 270px;
+  }
+  .products-wrapper .products-h3 {
+    margin-top: 10px;
+    margin-left: 285px;
+    margin-right: 0;
+  }
+  .products-wrapper .products-p {
+    padding: 0;
+    margin: 20px 150px 20px 150px;
+    font-size: 20px;
+  }
+  .products-wrapper .products-img {
+    position: static;
+    width: 468px;
+    height: 343.5px;
+    margin: 10px 150px 40px 150px;
+    padding: 0;
+  }
+  .contact-wrapper {
+    scroll-margin-block-start: 235px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .contact-wrapper .contact-text-wrapper h2 {
+    margin-left: 35%;
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+  .contact-wrapper .contact-text-wrapper h3 {
+    display: inline;
+    margin-left: 306px;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+  .contact-wrapper .contact-text-wrapper .contact-h3-2 {
+    margin-left: 320.5px;
+  }
+  .contact-wrapper .contact-text-wrapper p {
+    margin-left: 319px;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  .contact-wrapper .contact-text-wrapper .contact-p-2 {
+    margin-left: 256px;
+  }
+  .contact-wrapper .contact-input-wrapper {
+    margin: 20px 223px 60px 223px;
+    height: 500px;
+  }
+  .contact-wrapper .contact-input-wrapper button {
+    width: 200px;
+    padding: 12px;
+    font-size: 25px;
+    margin: 10px 51px;
+  }
+  .contact-wrapper .contact-input-wrapper input {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .contact-wrapper .contact-input-wrapper :nth-child(5) {
+    padding: 10px 20px 40px 20px;
+  }
+  .footer-wrapper {
+    display: none;
+    border: none;
+  }
+  .footer-copyright {
+    background-color: white;
+    border-top: 1px solid black;
+    padding: 10px;
+  }
+}
+.header-navbar-logo-img {
+  width: 350px;
 }/*# sourceMappingURL=main.css.map */

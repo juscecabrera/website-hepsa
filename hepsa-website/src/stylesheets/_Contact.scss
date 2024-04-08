@@ -4,6 +4,7 @@
 }
 
 .contact-wrapper {
+    scroll-margin-block-start: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 40px 200px 50px 300px;
@@ -16,7 +17,7 @@
         }
     }
 
-    .contact-input-wrapper{
+    .contact-input-wrapper {
         display: flex;
         flex-direction: column;
         gap: 10px;

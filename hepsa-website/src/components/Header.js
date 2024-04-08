@@ -15,7 +15,7 @@ function Header () {
             <p>999000999 / 999111999</p>
           </div>
           <div className="header-navbar">
-            <div className="header-navbar-logo"><img src={HepsaLogo} /></div>
+            <div className="header-navbar-logo"><img className="header-navbar-logo-img" src={HepsaLogo} /></div>
             <div className="header-navbar-buttons">
             <HeaderButton 
             text="Inicio" />

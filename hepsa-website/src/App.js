@@ -6,12 +6,14 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
+import Header2 from './components/Header2';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Header2 />
       <CarouselBootstrap />
       <About />
       <Products />
