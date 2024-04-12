@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../stylesheets/main.css";
 import HepsaLogo from "../images/logohepsa2.png";
 
-function BasicExample() {
+function Header2() {
   return (
     <Navbar collapseOnSelect sticky="top" expand="lg" className="bg-body-tertiary">
       <Container>
@@ -13,7 +13,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#top">Inicio</Nav.Link>
-            <Nav.Link href="#contentid">Nosotros</Nav.Link>
+            <Nav.Link href="#aboutid">Nosotros</Nav.Link>
             <Nav.Link href="#productsid">Productos</Nav.Link>
             <Nav.Link href="#contactid">Contacto</Nav.Link>
           </Nav>
@@ -23,4 +23,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Header2;

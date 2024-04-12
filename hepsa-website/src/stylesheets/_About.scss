@@ -3,21 +3,22 @@
     padding: 0;
 }
 
-.content-wrapper {
+.about-wrapper {
     scroll-margin-block-start: 85px;
     background-color: #569ed9;
     padding: 4%;
-    .content-h2 {
+    text-align: justify;
+    .about-h2 {
         margin-left: 43%;
         font-size: 50px;
     }
-    .content-p {
+    .about-p {
         padding: 20px;
         line-height: 30px;
         margin: 20px 250px 20px 220px;
         text-align: justify;
     }
-    .content-img-wrapper {
+    .about-img-wrapper {
         padding: 20px;
         margin-left: 200px;
         img {

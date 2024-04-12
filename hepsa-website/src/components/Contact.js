@@ -7,7 +7,7 @@ function Contact() {
             <div className="contact-text-wrapper">
                 <h2>Contacto</h2>
                 <h3 className="contact-h3-1">Teléfono</h3>
-                    <p>999999999</p>
+                    <p className="contact-p-1">999999999</p>
                 <h3 className="contact-h3-2">Correo</h3>
                     <p className="contact-p-2">ventas@hepsa.com.pe</p>
             </div>

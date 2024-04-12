@@ -7,6 +7,7 @@ import "../stylesheets/main.css";
 
 function CarouselBootstrap() {
   return (
+    <div className='carousel-wrapper'>
     <Carousel>
       <Carousel.Item>
         <img src={Carousel1} className="carousel-img"/>
@@ -39,6 +40,7 @@ function CarouselBootstrap() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 
