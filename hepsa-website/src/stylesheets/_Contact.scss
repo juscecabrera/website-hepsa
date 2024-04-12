@@ -4,44 +4,42 @@
 }
 
 .contact-wrapper {
-    scroll-margin-block-start: 80px;
+    scroll-margin-block-start: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px 200px 50px 300px;
+    padding: 2.3rem 12rem 2.3rem 23rem;
     background-color: #569ed9;
     .contact-text-wrapper {
         grid-column: 1;
         h2 {
-            font-size: 50px;
-            margin-bottom: 20px;
+            font-size: 4rem;
+            margin-bottom: 1rem;
         }
     }
 
     .contact-input-wrapper {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 0.8rem;
         grid-column: 2;
         background-color: white;
-        padding: 10px;
-        margin: 10px 170px 0 -10px;
-        height: 370px;
-        box-shadow: 1px 1px 20px rgb(0,0,0,0.4);
-        border-radius: 10px;
+        padding: 0.8rem;
+        margin: 0.8rem 10rem 0 -0.8rem;
+        box-shadow: 1px 1px 1.2rem rgb(0,0,0,0.4);
+        border-radius: 0.8rem;
         input {
-            padding: 10px;
-            width: 300px;
+            padding: 0.7rem;
             border: 1px solid rgb(0,0,0,0.1);
-            border-radius: 10px;
+            border-radius: 1rem;
         }
         :nth-child(5) {
-            padding: 5px 20px 40px 10px;
+            padding: 0.3rem 1.2rem 3rem 0.7rem;
         }
         button {
-            width: 100px;
-            padding: 5px;
+            width: 5rem;
+            padding: 0.2rem;
             border: 0.5px solid black;
-            border-radius: 10px;
+            border-radius: 1rem;
         }
         button:hover {
             transform: scale(1.1);

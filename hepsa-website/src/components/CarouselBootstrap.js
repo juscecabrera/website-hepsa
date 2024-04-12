@@ -13,8 +13,8 @@ function CarouselBootstrap() {
         <img src={Carousel1} className="carousel-img"/>
         <Carousel.Caption>
         <div className="carousel-text-wrapper">
-          <h3 className="carousel-h3">Imagen de Cilindros</h3>
-          <p className="carousel-p">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className="carousel-h3-1">Imagen de Cilindros</h3>
+          <p className="carousel-p-1">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           <a href="#contactid"><button>Contáctanos</button></a>
         </div>
         </Carousel.Caption>
@@ -23,8 +23,8 @@ function CarouselBootstrap() {
       <img src={Carousel2} className="carousel-img" />
         <Carousel.Caption>
           <div className="carousel-text-wrapper">
-            <h3 className="carousel-h3">Imagen de cilindros</h3>
-            <p className="carousel-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 className="carousel-h3-2">Imagen de cilindros</h3>
+            <p className="carousel-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="#contactid"><button>Contáctanos</button></a>
           </div>
         </Carousel.Caption>
@@ -33,8 +33,8 @@ function CarouselBootstrap() {
         <img src={Carousel3} className="carousel-img" />
         <Carousel.Caption>
         <div className="carousel-text-wrapper">
-          <h3 className="carousel-h3">Imagen de cilindros</h3>
-          <p className="carousel-p">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3 className="carousel-h3-3">Imagen de cilindros</h3>
+          <p className="carousel-p-3">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           <a href="#contactid"><button>Contáctanos</button></a>
         </div>
         </Carousel.Caption>

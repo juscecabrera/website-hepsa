@@ -3,29 +3,34 @@
     padding: 0;
 }
 
+
+//1 rem = 17px
 .about-wrapper {
-    scroll-margin-block-start: 85px;
+    scroll-margin-block-start: 5rem;
     background-color: #569ed9;
-    padding: 4%;
+    padding: 3rem;
     text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     .about-h2 {
-        margin-left: 43%;
-        font-size: 50px;
+        margin-left: 1rem;
+        font-size:4rem;
     }
     .about-p {
-        padding: 20px;
-        line-height: 30px;
-        margin: 20px 250px 20px 220px;
-        text-align: justify;
+        line-height: 2rem;
+        margin: 1.3rem 15rem 1.5rem 13rem;
+        font-size: 1.2rem;
     }
     .about-img-wrapper {
-        padding: 20px;
-        margin-left: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
         img {
-            width: 25%;
-            height: 200px;
-            margin-left: 15px;
-            border-radius: 10px;
+            width: 20rem;
+            height: 15rem;
+            border-radius: 1rem;
+            margin: 1rem;
         }
         img:hover {
             transform: scale(1.03);
