@@ -21,6 +21,7 @@
     //About
     .about-wrapper {
         @include media-wrapper;
+        scroll-margin-block-start: 16.5rem;
         .about-h2 {
             @include media-h2;
         }
@@ -43,6 +44,10 @@
     //Products
     .products-wrapper {
         @include media-wrapper;
+        scroll-margin-block-start: 16.5rem;
+        .products-barrel-wrapper {
+            @include media-flex;
+        }
         .products-h2 {
             @include media-h2;
         }
@@ -58,10 +63,17 @@
             position: static;
         }
     }
+    .barrel-svg-wrapper {
+        .barrel-svg-text {
+            width: 100%;
+        }
+    }
+    
     
     //Contact
     .contact-wrapper {
         @include media-wrapper;
+        scroll-margin-block-start: 16.5rem;
         .contact-text-wrapper {
             @include media-wrapper;
             padding-top: 1rem;

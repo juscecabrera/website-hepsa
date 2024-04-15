@@ -7,6 +7,14 @@ h2 {
   color: white;
 }
 
+.header-navbar-logo-img {
+  width: 11rem;
+}
+
+.bg-body-tertiary {
+  box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.334);
+}
+
 .header-wrapper {
   z-index: 100;
   background-color: white;
@@ -220,6 +228,25 @@ h2 {
   transition-duration: 1s;
 }
 
+.barrel-svg-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+  width: 30%;
+}
+.barrel-svg-wrapper .barrel-svg-img {
+  width: 8rem;
+}
+.barrel-svg-wrapper .barrel-svg-text {
+  color: rgb(0, 138, 252);
+  text-align: center;
+  margin: 1rem 0;
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 350;
+}
+
 .contact-wrapper {
   scroll-margin-block-start: 5rem;
   display: grid;
@@ -287,6 +314,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 16.5rem;
   }
   .about-wrapper .about-h2 {
     font-size: 3rem;
@@ -318,6 +346,12 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 16.5rem;
+  }
+  .products-wrapper .products-barrel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .products-wrapper .products-h2 {
     font-size: 3rem;
@@ -337,6 +371,9 @@ h2 {
     margin-bottom: 2rem;
     position: static;
   }
+  .barrel-svg-wrapper .barrel-svg-text {
+    width: 100%;
+  }
   .contact-wrapper {
     display: flex;
     flex-direction: column;
@@ -344,6 +381,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 16.5rem;
   }
   .contact-wrapper .contact-text-wrapper {
     display: flex;
@@ -637,26 +675,4 @@ h2 {
     border-top: 1px solid black;
     padding: 0.5rem;
   }
-}
-.header-navbar-logo-img {
-  width: 11rem;
-}
-
-.barrel-svg-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem 0;
-  width: 30%;
-}
-.barrel-svg-wrapper .barrel-svg-img {
-  width: 8rem;
-}
-.barrel-svg-wrapper .barrel-svg-text {
-  color: rgb(0, 138, 252);
-  text-align: center;
-  margin: 1rem 0;
-  width: 60%;
-  font-size: 1rem;
-  font-weight: 350;
 }/*# sourceMappingURL=main.css.map */
