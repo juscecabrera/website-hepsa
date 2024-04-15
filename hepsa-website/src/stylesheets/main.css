@@ -41,11 +41,6 @@
   margin-top: 10px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .header-button-wrapper {
   display: flex;
   justify-content: center;
@@ -72,11 +67,6 @@
   height: 5px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .footer-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,14 +76,14 @@
 .footer-wrapper .footer-contacto {
   grid-column: 1;
   margin-left: 10%;
-  padding: 25px;
+  padding: 1.5rem;
   text-align: center;
 }
 .footer-wrapper .footer-contacto h3 {
-  margin-bottom: 20px;
+  margin-bottom: 1.3rem;
 }
 .footer-wrapper .footer-info {
-  margin: 20px;
+  margin: 1.3rem;
   grid-column: 2;
   border-left: 1px solid black;
 }
@@ -148,19 +138,14 @@
      object-fit: cover;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   scroll-margin-block-start: 5rem;
   background-color: #569ed9;
   padding: 3rem;
   text-align: justify;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 .about-wrapper .about-h2 {
   margin-left: 1rem;
@@ -187,11 +172,6 @@
   transition-duration: 0.7s;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .products-wrapper {
   scroll-margin-block-start: 7rem;
   display: grid;
@@ -212,22 +192,16 @@
   text-align: justify;
 }
 .products-wrapper img {
-  grid-column: 2;
   width: 80%;
   position: relative;
-  bottom: 80px;
-  left: 35px;
-  border-radius: 10px;
+  bottom: 5rem;
+  left: 2rem;
+  border-radius: 1rem;
 }
 .products-wrapper img:hover {
   transform-box: view-box;
   transform: scale(1.03);
   transition-duration: 1s;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 .contact-wrapper {
@@ -308,6 +282,9 @@
     padding: 0;
   }
   .about-wrapper .about-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 1rem;
     padding: 1rem;
   }
@@ -381,7 +358,7 @@
   .contact-wrapper .contact-input-wrapper input {
     width: 16.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 1rem;
   }
   .contact-wrapper .contact-input-wrapper :nth-child(5) {
     padding: 0.5rem 1rem 3rem 0.5rem;
@@ -645,5 +622,5 @@
   }
 }
 .header-navbar-logo-img {
-  width: 350px;
+  width: 20rem;
 }/*# sourceMappingURL=main.css.map */

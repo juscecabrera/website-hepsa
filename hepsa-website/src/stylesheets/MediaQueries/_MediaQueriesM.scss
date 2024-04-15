@@ -1,0 +1,102 @@
+//Medium 768px - 992px
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+//Header 2 Bootstrap
+.container {
+width: 20rem;
+margin-left: 0;        
+.header-navbar-logo-img {
+    width: 12rem;
+    }
+}
+
+//Carousel Bootstrap
+.carousel-wrapper {
+margin-top: -3rem;
+.carousel-text-wrapper {
+    margin: 1rem 0;
+    color: white;
+    }    
+}
+
+//About
+.about-wrapper {
+@include media-wrapper;
+.about-h2 {
+    @include media-h2;
+}
+.about-p {
+    @include media-p;
+}
+.about-img-wrapper {
+    margin: 0 1rem;
+    padding: 1rem;
+    @include media-flex;
+    img {
+        width: 75%;
+        height: auto;
+        margin: 1rem;
+        padding: 0;
+        border-radius: 0.8rem;
+    }
+}
+}
+
+//Products
+.products-wrapper {
+@include media-wrapper;
+.products-h2 {
+    @include media-h2;
+}
+.products-h3 {
+    margin: 0;
+}
+.products-p {
+    @include media-p;
+}
+.products-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: static;
+}
+}
+
+//Contact
+.contact-wrapper {
+@include media-wrapper;
+.contact-text-wrapper {
+    @include media-wrapper;
+    padding-top: 1rem;
+    h2 {
+        @include media-h2;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+.contact-input-wrapper {
+    margin: 1rem;
+    height: 24rem;
+    button {
+        margin-left: 5rem;
+    }
+    input {
+        width: 16.5rem;
+        border: 1px solid rgb(0,0,0,0.1);
+        border-radius: 10px;
+    }
+    :nth-child(5) {
+        padding: 0.5rem 1rem 3rem 0.5rem;
+    }
+}
+}
+
+//Footer 
+.footer-copyright {
+background-color: $bg-color;
+border-top: 1px solid black;
+padding: 0.5rem;
+}
+}

@@ -1,14 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .contact-wrapper {
     scroll-margin-block-start: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2.3rem 12rem 2.3rem 23rem;
-    background-color: #569ed9;
+    background-color: $bg-color;
     .contact-text-wrapper {
         grid-column: 1;
         h2 {
