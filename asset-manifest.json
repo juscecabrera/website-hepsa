@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/website-hepsa/static/css/main.700ad371.css",
+    "main.js": "/website-hepsa/static/js/main.d196c104.js",
+    "static/media/contentimg2.jpg": "/website-hepsa/static/media/contentimg2.81e6c1422f8ce9cb98ed.jpg",
+    "static/media/contentimg3.jpg": "/website-hepsa/static/media/contentimg3.3563891bc5a6f596d7ae.jpg",
+    "static/media/contentimg1.jpg": "/website-hepsa/static/media/contentimg1.eaab467b8e95bd990da5.jpg",
+    "static/media/productsimg1.jpg": "/website-hepsa/static/media/productsimg1.32aa6bae15b0ad22acfd.jpg",
+    "static/media/logohepsa2.png": "/website-hepsa/static/media/logohepsa2.2ac18f02e6e480868478.png",
+    "static/media/carouselstock3.jpg": "/website-hepsa/static/media/carouselstock3.b0f2e46fc152d69468ed.jpg",
+    "static/media/carouselstock2.jpg": "/website-hepsa/static/media/carouselstock2.dfc32f1d1a380c1fea87.jpg",
+    "static/media/carouselstock1.jpg": "/website-hepsa/static/media/carouselstock1.ecdb8cf473b62d43ce92.jpg",
+    "static/media/logohepsa.jpeg": "/website-hepsa/static/media/logohepsa.e054ff8669158ac6f619.jpeg",
+    "index.html": "/website-hepsa/index.html",
+    "main.700ad371.css.map": "/website-hepsa/static/css/main.700ad371.css.map",
+    "main.d196c104.js.map": "/website-hepsa/static/js/main.d196c104.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.700ad371.css",
+    "static/js/main.d196c104.js"
+  ]
+}
