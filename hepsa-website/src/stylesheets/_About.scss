@@ -2,12 +2,13 @@
 .about-wrapper {
     @include media-flex;
     scroll-margin-block-start: 5rem;
-    background-color: #569ed9;
+    background-color: $bg-color;
     padding: 3rem;
     text-align: justify;
     .about-h2 {
         margin-left: 1rem;
         font-size:4rem;
+        font-weight: bold;
     }
     .about-p {
         line-height: 2rem;
@@ -19,8 +20,9 @@
         justify-content: center;
         flex-direction: row;
         img {
-            width: 20rem;
-            height: 15rem;
+            width: 25rem;
+            height: 30rem;
+            object-fit: cover;
             border-radius: 1rem;
             margin: 1rem;
         }

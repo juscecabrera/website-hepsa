@@ -3,12 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../stylesheets/main.css";
 import HepsaLogo from "../images/logohepsa2.png";
+import HepsaLogo2 from "../images/logoHepsa3.png"
 
 function Header2() {
   return (
     <Navbar collapseOnSelect sticky="top" expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#top"><img className="header-navbar-logo-img" src={HepsaLogo} /></Navbar.Brand>
+        <Navbar.Brand href="#top"><img className="header-navbar-logo-img" src={HepsaLogo2} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

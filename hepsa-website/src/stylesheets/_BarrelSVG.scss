@@ -1,0 +1,17 @@
+.barrel-svg-wrapper {
+    @include media-flex;
+    margin: 1rem 0;
+    width: 30%;
+    .barrel-svg-img {
+        width: 8rem;
+    }
+    .barrel-svg-text {
+        color: $bg-color;
+        text-align: center;
+        margin: 1rem 0;
+        width: 60%;
+        font-size: 1rem;
+        font-weight: 350;
+    }
+}
+

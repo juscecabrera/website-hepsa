@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Carousel1 from "../images/carouselstock1.jpg";
 import Carousel2 from "../images/carouselstock2.jpg";
 import Carousel3 from "../images/carouselstock3.jpg";
+import Carousel4 from "../images/imgHepsaIndex4.jpg";
 import "../stylesheets/main.css";
 
 
@@ -10,7 +11,7 @@ function CarouselBootstrap() {
     <div className='carousel-wrapper'>
     <Carousel>
       <Carousel.Item>
-        <img src={Carousel1} className="carousel-img"/>
+        <img src={Carousel4} className="carousel-img"/>
         <Carousel.Caption>
         <div className="carousel-text-wrapper">
           <h3 className="carousel-h3-1">Imagen de Cilindros</h3>
