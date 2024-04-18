@@ -9,7 +9,8 @@ function Contact() {
 
         emailjs.sendForm('service_jtslv0e','template_ccgkrvp',e.target,'LoSfAa6xorBEmhRCM').then(res=>{
             console.log(res);
-        })
+            alert("Mensaje enviado correctamente!")
+        })        
     }
 
     return(
@@ -22,12 +23,12 @@ function Contact() {
                     {/* <p className="contact-p-2">ventas@hepsa.com.pe</p> */}
             </div>
             <form onSubmit={enviarEmail} className="contact-input-wrapper">
-                <input placeholder="Nombre"></input>
-                <input placeholder="Apellido"></input>
-                <input placeholder="Empresa"></input>
-                <input placeholder="Correo"></input>
-                <input placeholder="Mensaje"></input>
-                <button type="submit">Enviar</button>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre"></input>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido"></input>
+                <input type="text" name="empresa" id="empresa" placeholder="Empresa"></input>
+                <input type="text" name="correo" id="correo" placeholder="Correo"></input>
+                <textarea type="text" name="mensaje" placeholder="Mensaje" id="mensaje"></textarea>
+                <button type="submit">Enviar correo</button>
             </form>
         </div>
     );

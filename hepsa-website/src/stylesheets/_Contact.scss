@@ -26,22 +26,22 @@
         margin: 0.8rem 10rem 0 -0.8rem;
         border-radius: 0.8rem;
         border: 1px solid white;
-        input {
+        input, textarea {
             padding: 0.7rem;
             border: 1px solid rgb(255, 255, 255);
             border-radius: 1rem;
             background: none;
         }
-        input::placeholder {
+        input::placeholder, textarea::placeholder {
             color: white;
         }
-        :nth-child(5) {
+        textarea {
             padding: 0.3rem 1.2rem 3rem 0.7rem;
         }
         button {
             background: none;
-            width: 5rem;
-            padding: 0.2rem;
+            width: 9rem;
+            padding: 0.5rem;
             border: 0.5px solid white;
             border-radius: 0.8rem;
             color: white;
