@@ -19,7 +19,7 @@ function Footer () {
         </div>
         </div> */}
         <div className="footer-copyright">
-          <p>©2024 Hepsa | Todos los derechos reservados</p>
+          <p>© 2024 Hepsa | Todos los derechos reservados</p>
         </div>
         </div>
       </>

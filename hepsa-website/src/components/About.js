@@ -15,7 +15,7 @@ function About () {
         <>
         <div className="about-wrapper" id="aboutid">
             <h2 className="about-h2">NOSOTROS</h2>
-            <p className="about-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In tellus integer feugiat scelerisque varius morbi. Libero enim sed faucibus turpis in eu mi bibendum. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. At volutpat diam ut venenatis tellus in metus vulputate. Sit amet nisl purus in mollis nunc sed id. Elementum curabitur vitae nunc sed velit dignissim sodales. Magna etiam tempor orci eu lobortis. Purus non enim praesent elementum facilisis. Tellus orci ac auctor augue mauris augue. 
+            <p className="about-p"> Somos una empresa con más de 60 años en el sector de la venta industrial de Carburo de Calcio. Somos la única empresa peruana de producción y venta de Carburo de Calcio.  
             </p>
             <div className="about-img-wrapper"><img src={ContentImg4}/><img src={ContentImg5}/><img src={ContentImg7}/></div>
         </div>

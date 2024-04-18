@@ -224,16 +224,23 @@ h2 {
   flex-direction: column;
   gap: 0.8rem;
   grid-column: 2;
-  background-color: white;
+  background: none;
   padding: 0.8rem;
   margin: 0.8rem 10rem 0 -0.8rem;
-  box-shadow: 1px 1px 1.2rem rgba(0, 0, 0, 0.4);
   border-radius: 0.8rem;
+  border: 1px solid white;
 }
 .contact-wrapper .contact-input-wrapper input {
   padding: 0.7rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 1rem;
+  background: none;
+}
+.contact-wrapper .contact-input-wrapper input::-moz-placeholder {
+  color: white;
+}
+.contact-wrapper .contact-input-wrapper input::placeholder {
+  color: white;
 }
 .contact-wrapper .contact-input-wrapper :nth-child(5) {
   padding: 0.3rem 1.2rem 3rem 0.7rem;
@@ -242,12 +249,15 @@ h2 {
   background: none;
   width: 5rem;
   padding: 0.2rem;
-  border: 0.5px solid black;
-  border-radius: 1rem;
+  border: 0.5px solid white;
+  border-radius: 0.8rem;
+  color: white;
 }
 .contact-wrapper .contact-input-wrapper button:hover {
-  transform: scale(1.1);
-  transition-duration: 0.78s;
+  background-color: rgba(255, 255, 255, 0.452);
+  transition: 0.4s;
+  transform: scale(1.01, 1.01);
+  color: rgb(0, 138, 252);
 }
 
 @media only screen and (max-width: 576px) {
