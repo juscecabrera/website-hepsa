@@ -145,6 +145,7 @@ h2 {
   line-height: 2rem;
   margin: 1.3rem 15rem 1.5rem 13rem;
   font-size: 1.2rem;
+  color: white;
 }
 .about-wrapper .about-img-wrapper {
   display: flex;
@@ -238,6 +239,7 @@ h2 {
   padding: 0.3rem 1.2rem 3rem 0.7rem;
 }
 .contact-wrapper .contact-input-wrapper button {
+  background: none;
   width: 5rem;
   padding: 0.2rem;
   border: 0.5px solid black;
@@ -626,4 +628,38 @@ h2 {
     border-top: 1px solid black;
     padding: 0.5rem;
   }
+}
+.hero2-wrapper {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/imgHepsaIndex4.jpg");
+}
+.hero2-wrapper .hero2-h1 {
+  font-size: 8rem;
+  margin: 2rem 0;
+  font-weight: 700;
+}
+.hero2-wrapper h2 {
+  text-align: center;
+  margin: 0 15rem;
+  color: white;
+  font-weight: 700;
+}
+.hero2-wrapper button {
+  margin: 3.5rem 0;
+  padding: 1.3rem 5rem;
+  border-radius: 0.8rem;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  color: white;
+  background: none;
+}
+.hero2-wrapper button:hover {
+  background-color: rgba(255, 255, 255, 0.452);
+  transition: 0.4s;
+  transform: scale(1.01, 1.01);
+  color: rgb(0, 138, 252);
 }/*# sourceMappingURL=main.css.map */

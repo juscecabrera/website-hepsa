@@ -1,2 +1,39 @@
 //Voy a crear una Hero que sea la h1 y el h2 con una imagen de fondo opaca. 
 //para probar
+
+.hero2-wrapper {
+    height: 70vh;
+    @include media-flex();
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/imgHepsaIndex4.jpg");
+    
+    .hero2-h1 {
+        font-size: 8rem;
+        margin: 2rem 0; 
+        font-weight: 700;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0 15rem;
+        color: white;
+        font-weight: 700;
+    }
+    button {
+        margin: 3.5rem 0;
+        padding: 1.3rem 5rem;
+        border-radius: 0.8rem;
+        border: 1px solid white;
+        font-size: 1.2rem;
+        color: white;
+        background: none;
+    }
+    button:hover {
+        background-color: rgba(255, 255, 255, 0.452);
+        transition: 0.4s;
+        transform: scale(1.01, 1.01);
+        color: $bg-color;
+    }
+    
+}
+

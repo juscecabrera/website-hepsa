@@ -7,6 +7,7 @@ import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
 import Header2 from './components/Header2';
+import Hero2 from './components/Hero2';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       <Header2 />
-      <CarouselBootstrap />
+      {/* <CarouselBootstrap /> */}
+      <Hero2 />
       <About />
       <Products />
       <Contact />
