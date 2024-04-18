@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-hepsa/static/css/main.9d7ed55b.css",
-    "main.js": "/website-hepsa/static/js/main.9d322829.js",
+    "main.css": "/website-hepsa/static/css/main.1e9ff12e.css",
+    "main.js": "/website-hepsa/static/js/main.c81f7cae.js",
     "static/media/contentimg2.jpg": "/website-hepsa/static/media/contentimg2.81e6c1422f8ce9cb98ed.jpg",
     "static/media/contentimg3.jpg": "/website-hepsa/static/media/contentimg3.3563891bc5a6f596d7ae.jpg",
     "static/media/contentimg1.jpg": "/website-hepsa/static/media/contentimg1.eaab467b8e95bd990da5.jpg",
@@ -19,11 +19,11 @@
     "static/media/logoHepsa3.png": "/website-hepsa/static/media/logoHepsa3.698b953e9bf52082de60.png",
     "static/media/barrelSVG.svg": "/website-hepsa/static/media/barrelSVG.006e442780113cb625e1b1d9fb8ad1c5.svg",
     "index.html": "/website-hepsa/index.html",
-    "main.9d7ed55b.css.map": "/website-hepsa/static/css/main.9d7ed55b.css.map",
-    "main.9d322829.js.map": "/website-hepsa/static/js/main.9d322829.js.map"
+    "main.1e9ff12e.css.map": "/website-hepsa/static/css/main.1e9ff12e.css.map",
+    "main.c81f7cae.js.map": "/website-hepsa/static/js/main.c81f7cae.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d7ed55b.css",
-    "static/js/main.9d322829.js"
+    "static/css/main.1e9ff12e.css",
+    "static/js/main.c81f7cae.js"
   ]
 }
