@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../stylesheets/main.css";
-import HepsaLogo from "../images/logohepsa2.png";
 import HepsaLogo2 from "../images/logoHepsa3.png"
 
 function Header2() {

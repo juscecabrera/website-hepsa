@@ -57,6 +57,7 @@
     //About
     .about-wrapper {
     @include media-wrapper;
+    scroll-margin-block-start: 16rem;
     .about-h2 {
         @include media-h2;
         }
@@ -75,6 +76,7 @@
             border-radius: 0.8rem;
             }
         }
+    
     }
     
     //Products
@@ -106,10 +108,7 @@
             h2 {
                 @include media-h2;
             }
-            h3 {
-                font-size: 1.5rem;
-            }
-            p {
+            h3, p {
                 font-size: 1.5rem;
             }
         }
@@ -136,7 +135,6 @@
     }
 .footer-copyright {
     background-color: white;
-    // border-top: 1px solid black;
     padding: 0.5rem;
     }
 }

@@ -21,112 +21,6 @@ h2 {
   align-items: flex-end;
 }
 
-.header-wrapper {
-  z-index: 100;
-  background-color: white;
-  scroll-behavior: auto;
-}
-.header-wrapper .header-topbar {
-  background-color: #f0f0f0;
-  width: 100%;
-  height: 5%;
-  display: flex;
-  padding-left: 15%;
-}
-.header-wrapper .header-topbar p {
-  padding: 0.6%;
-  margin: 0.6%;
-  font-size: 13px;
-}
-.header-wrapper .header-navbar {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
-}
-.header-wrapper .header-navbar .header-navbar-buttons {
-  grid-column: 3;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.header-wrapper .header-navbar .header-navbar-logo {
-  grid-column: 1/2;
-}
-.header-wrapper .header-navbar .header-navbar-logo .header-navbar-logo-img {
-  margin-left: 150px;
-  width: 70%;
-  margin-top: 10px;
-}
-
-.header-button-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 7%;
-}
-.header-button-wrapper a {
-  color: black;
-  font-size: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  text-decoration: none;
-}
-.header-button-wrapper :hover {
-  cursor: pointer;
-  color: rgb(54, 54, 54);
-}
-.header-button-wrapper .header-button-bottom-bar {
-  background-color: #569ed9;
-  width: 85%;
-  height: 5px;
-}
-
-.footer-copyright {
-  background-color: rgb(0, 138, 252);
-  text-align: center;
-  padding: 1%;
-  padding-bottom: 0.5%;
-  color: white;
-}
-
-.carousel-text-wrapper {
-  margin: 0 30rem 15rem 0;
-  color: black;
-  text-align: start;
-}
-.carousel-text-wrapper h3 {
-  font-size: 2rem;
-}
-.carousel-text-wrapper .carousel-h3-3, .carousel-text-wrapper .carousel-p-3 {
-  color: white;
-}
-.carousel-text-wrapper p {
-  font-size: 1.2rem;
-}
-.carousel-text-wrapper button {
-  padding: 1.2rem;
-  border-radius: 0.8rem;
-  border: 1px solid black;
-  font-size: 1.2rem;
-}
-.carousel-text-wrapper button:hover {
-  background-color: white;
-  transition: 0.4s;
-  transform: scale(1.01, 1.01);
-}
-
-.carousel-img {
-  opacity: 92%;
-  width: 100%;
-  height: 35rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .hero2-wrapper {
   height: 70vh;
   display: flex;
@@ -278,6 +172,7 @@ h2 {
   color: white;
 }
 .contact-wrapper .contact-input-wrapper textarea {
+  overflow: hidden;
   padding: 0.3rem 1.2rem 3rem 0.7rem;
   resize: none;
 }
@@ -294,6 +189,14 @@ h2 {
   transition: 0.4s;
   transform: scale(1.01, 1.01);
   color: rgb(0, 138, 252);
+}
+
+.footer-copyright {
+  background-color: rgb(0, 138, 252);
+  text-align: center;
+  padding: 1%;
+  padding-bottom: 0.5%;
+  color: white;
 }
 
 @media only screen and (max-width: 576px) {
@@ -435,10 +338,7 @@ h2 {
     margin: 0;
     padding: 1rem;
   }
-  .contact-wrapper .contact-text-wrapper h3 {
-    font-size: 1.5rem;
-  }
-  .contact-wrapper .contact-text-wrapper p {
+  .contact-wrapper .contact-text-wrapper h3, .contact-wrapper .contact-text-wrapper p {
     font-size: 1.5rem;
   }
   .contact-wrapper .contact-input-wrapper {
@@ -518,6 +418,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 16rem;
   }
   .about-wrapper .about-h2 {
     font-size: 3rem;
@@ -592,10 +493,7 @@ h2 {
     margin: 0;
     padding: 1rem;
   }
-  .contact-wrapper .contact-text-wrapper h3 {
-    font-size: 1.5rem;
-  }
-  .contact-wrapper .contact-text-wrapper p {
+  .contact-wrapper .contact-text-wrapper h3, .contact-wrapper .contact-text-wrapper p {
     font-size: 1.5rem;
   }
   .contact-wrapper .contact-input-wrapper {
@@ -679,6 +577,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 16.5rem;
   }
   .about-wrapper .about-h2 {
     font-size: 3rem;
@@ -711,6 +610,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 16.5rem;
   }
   .products-wrapper .products-h2 {
     font-size: 3rem;
@@ -753,10 +653,7 @@ h2 {
     margin: 0;
     padding: 1rem;
   }
-  .contact-wrapper .contact-text-wrapper h3 {
-    font-size: 1.5rem;
-  }
-  .contact-wrapper .contact-text-wrapper p {
+  .contact-wrapper .contact-text-wrapper h3, .contact-wrapper .contact-text-wrapper p {
     font-size: 1.5rem;
   }
   .contact-wrapper .contact-input-wrapper {
@@ -836,6 +733,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 6.8rem;
   }
   .about-wrapper .about-h2 {
     font-size: 3rem;
@@ -868,6 +766,7 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
+    scroll-margin-block-start: 6.8rem;
   }
   .products-wrapper .products-h2 {
     font-size: 3rem;
@@ -894,7 +793,11 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
-    scroll-margin-block-start: 16.5rem;
+    scroll-margin-block-start: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
   }
   .contact-wrapper .contact-text-wrapper {
     display: flex;
@@ -903,33 +806,31 @@ h2 {
     margin: 0;
     padding: 0;
     scroll-margin-block-start: 12rem;
-    padding-top: 1rem;
+    margin-right: 2rem;
   }
   .contact-wrapper .contact-text-wrapper h2 {
     font-size: 3rem;
     margin: 0;
     padding: 1rem;
   }
-  .contact-wrapper .contact-text-wrapper h3 {
-    font-size: 1.5rem;
-  }
-  .contact-wrapper .contact-text-wrapper p {
+  .contact-wrapper .contact-text-wrapper h3, .contact-wrapper .contact-text-wrapper p {
     font-size: 1.5rem;
   }
   .contact-wrapper .contact-input-wrapper {
     margin: 1rem;
     height: 24rem;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .contact-wrapper .contact-input-wrapper input {
-    width: 16.5rem;
+    width: 17.5rem;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 1rem;
   }
   .contact-wrapper .contact-input-wrapper textarea {
-    width: 16.5rem;
+    width: 17.5rem;
     border: 1px solid rgb(255, 255, 255);
   }
   .footer-copyright {

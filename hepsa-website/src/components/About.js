@@ -1,11 +1,7 @@
 import React from "react";
 import "../stylesheets/main.css";
-import ContentImg1 from "../images/contentimg1.jpg";
-import ContentImg2 from "../images/contentimg2.jpg";
-import ContentImg3 from "../images/contentimg3.jpg";
 import ContentImg4 from "../images/imgHepsaIndex1.webp";
 import ContentImg5 from "../images/imgHepsaIndex2.webp";
-import ContentImg6 from "../images/imgHepsaIndex5.jpg";
 import ContentImg7 from "../images/imgHepsaIndex3.jpg";
 
 

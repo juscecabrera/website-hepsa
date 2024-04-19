@@ -57,6 +57,7 @@ margin-top: -3rem;
 //About
 .about-wrapper {
 @include media-wrapper;
+scroll-margin-block-start: 16.5rem;
 .about-h2 {
     @include media-h2;
 }
@@ -80,6 +81,7 @@ margin-top: -3rem;
 //Products
 .products-wrapper {
 @include media-wrapper;
+scroll-margin-block-start: 16.5rem;
 .products-h2 {
     @include media-h2;
 }
@@ -106,10 +108,7 @@ margin-top: -3rem;
         h2 {
             @include media-h2;
         }
-        h3 {
-            font-size: 1.5rem;
-        }
-        p {
+        h3, p {
             font-size: 1.5rem;
         }
     }
@@ -132,7 +131,6 @@ margin-top: -3rem;
 //Footer 
 .footer-copyright {
 background-color: $bg-color;
-// border-top: 1px solid black;
 padding: 0.5rem;
 }
 }

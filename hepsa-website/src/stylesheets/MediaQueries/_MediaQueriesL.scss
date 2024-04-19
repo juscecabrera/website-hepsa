@@ -57,6 +57,7 @@ margin-top: -3rem;
 //About
 .about-wrapper {
 @include media-wrapper;
+scroll-margin-block-start: 6.8rem;
 .about-h2 {
     @include media-h2;
 }
@@ -80,6 +81,7 @@ margin-top: -3rem;
 //Products
 .products-wrapper {
 @include media-wrapper;
+scroll-margin-block-start: 6.8rem;
 .products-h2 {
     @include media-h2;
 }
@@ -99,31 +101,33 @@ margin-top: -3rem;
 //Contact
 .contact-wrapper {
     @include media-wrapper;
-    scroll-margin-block-start: 16.5rem;
+    scroll-margin-block-start: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     .contact-text-wrapper {
         @include media-wrapper;
-        padding-top: 1rem;
+        margin-right: 2rem;
         h2 {
             @include media-h2;
         }
-        h3 {
-            font-size: 1.5rem;
-        }
-        p {
+        h3, p {
             font-size: 1.5rem;
         }
     }
     .contact-input-wrapper {
         margin: 1rem;
         height: 24rem;
+        width: 20rem;
         @include media-flex();
         input {
-            width: 16.5rem;
+            width: 17.5rem;
             border: 1px solid rgb(255, 255, 255);
             border-radius: 1rem;
         }
         textarea {
-            width: 16.5rem;
+            width: 17.5rem;
             border: 1px solid rgb(255, 255, 255);
         }
     }
@@ -132,7 +136,6 @@ margin-top: -3rem;
 //Footer 
 .footer-copyright {
 background-color: $bg-color;
-// border-top: 1px solid black;
 padding: 0.5rem;
 }
 }
