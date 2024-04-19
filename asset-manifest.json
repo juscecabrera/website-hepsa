@@ -1,29 +1,19 @@
 {
   "files": {
-    "main.css": "/website-hepsa/static/css/main.8c95e8f8.css",
-    "main.js": "/website-hepsa/static/js/main.e82dd3b7.js",
-    "static/media/contentimg2.jpg": "/website-hepsa/static/media/contentimg2.81e6c1422f8ce9cb98ed.jpg",
-    "static/media/contentimg3.jpg": "/website-hepsa/static/media/contentimg3.3563891bc5a6f596d7ae.jpg",
-    "static/media/contentimg1.jpg": "/website-hepsa/static/media/contentimg1.eaab467b8e95bd990da5.jpg",
-    "static/media/productsimg1.jpg": "/website-hepsa/static/media/productsimg1.32aa6bae15b0ad22acfd.jpg",
+    "main.css": "/website-hepsa/static/css/main.b0b1b8c1.css",
+    "main.js": "/website-hepsa/static/js/main.9d682393.js",
     "static/media/imgHepsaIndex4.jpg": "/website-hepsa/static/media/imgHepsaIndex4.e659a45aac4d67704b0b.jpg",
-    "static/media/logohepsa2.png": "/website-hepsa/static/media/logohepsa2.2ac18f02e6e480868478.png",
-    "static/media/carouselstock3.jpg": "/website-hepsa/static/media/carouselstock3.b0f2e46fc152d69468ed.jpg",
-    "static/media/carouselstock2.jpg": "/website-hepsa/static/media/carouselstock2.dfc32f1d1a380c1fea87.jpg",
-    "static/media/carouselstock1.jpg": "/website-hepsa/static/media/carouselstock1.ecdb8cf473b62d43ce92.jpg",
     "static/media/imgHepsaIndex1.webp": "/website-hepsa/static/media/imgHepsaIndex1.b01507c1ed90889dbe3b.webp",
     "static/media/imgHepsaIndex2.webp": "/website-hepsa/static/media/imgHepsaIndex2.80a458539820d3356379.webp",
-    "static/media/imgHepsaIndex5.jpg": "/website-hepsa/static/media/imgHepsaIndex5.183e1aa75aea7dbf9189.jpg",
     "static/media/imgHepsaIndex3.jpg": "/website-hepsa/static/media/imgHepsaIndex3.e0b9a9668993d4557f1b.jpg",
-    "static/media/logohepsa.jpeg": "/website-hepsa/static/media/logohepsa.e054ff8669158ac6f619.jpeg",
     "static/media/logoHepsa3.png": "/website-hepsa/static/media/logoHepsa3.698b953e9bf52082de60.png",
     "static/media/barrelSVG.svg": "/website-hepsa/static/media/barrelSVG.006e442780113cb625e1b1d9fb8ad1c5.svg",
     "index.html": "/website-hepsa/index.html",
-    "main.8c95e8f8.css.map": "/website-hepsa/static/css/main.8c95e8f8.css.map",
-    "main.e82dd3b7.js.map": "/website-hepsa/static/js/main.e82dd3b7.js.map"
+    "main.b0b1b8c1.css.map": "/website-hepsa/static/css/main.b0b1b8c1.css.map",
+    "main.9d682393.js.map": "/website-hepsa/static/js/main.9d682393.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c95e8f8.css",
-    "static/js/main.e82dd3b7.js"
+    "static/css/main.b0b1b8c1.css",
+    "static/js/main.9d682393.js"
   ]
 }
