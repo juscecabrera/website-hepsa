@@ -17,6 +17,42 @@
             color: white;
         }    
     }
+
+    //Hero 2
+    .hero2-wrapper {
+        @include media-flex();
+        height: 70vh;
+        color: white;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/imgHepsaIndex4.jpg");
+        .hero2-h1 {
+            font-size: 6rem;
+            margin: 2rem 0 1.4rem 0; 
+            font-weight: 700;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 0 2rem;
+            color: white;
+            font-weight: 700;
+        }
+        button {
+            margin: 1.3rem 0;
+            padding: 1.3rem 5rem;
+            border-radius: 0.8rem;
+            border: 1px solid white;
+            font-size: 1.2rem;
+            color: white;
+            background: none;
+        }
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.452);
+            transition: 0.4s;
+            transform: scale(1.01, 1.01);
+            color: $bg-color;
+        }
+        
+    }
     
     //About
     .about-wrapper {
@@ -81,7 +117,7 @@
                 @include media-h2;
             }
             h3 {
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
             p {
                 font-size: 1.5rem;
@@ -90,16 +126,15 @@
         .contact-input-wrapper {
             margin: 1rem;
             height: 24rem;
-            button {
-                margin-left: 5rem;
-            }
+            @include media-flex();
             input {
                 width: 16.5rem;
-                border: 1px solid rgb(0,0,0,0.1);
+                border: 1px solid rgb(255, 255, 255);
                 border-radius: 1rem;
             }
-            :nth-child(5) {
-                padding: 0.5rem 1rem 3rem 0.5rem;
+            textarea {
+                width: 16.5rem;
+                border: 1px solid rgb(255, 255, 255);
             }
         }
     }
