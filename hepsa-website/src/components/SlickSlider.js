@@ -60,7 +60,7 @@ function SimpleSlider() {
         <div>
         <div className="slider-text-wrapper">
                 <h4>2024</h4>
-                <p>OCRRIÓ UN TERREMOTO Y MURIERON TODOS. Normal si te sientes solita y me <br></br>extrañas.</p>
+                <p>QUE PASO EN 2024 CHISMOSO</p>
             </div>
             
             <img src={ImgSlider1}></img>

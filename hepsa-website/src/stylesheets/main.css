@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Kanit;
+  src: url(../fonts/Kanit/Kanit-SemiBold.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +9,7 @@
 
 h2 {
   color: white;
+  font-family: Kanit;
 }
 
 .header-navbar-logo-img {
@@ -21,6 +26,14 @@ h2 {
   align-items: flex-end;
 }
 
+@font-face {
+  font-family: FugazOne;
+  src: url(../fonts/FugazOne-Regular.otf);
+}
+@font-face {
+  font-family: Kanit;
+  src: url(../fonts/Kanit/Kanit-SemiBold.ttf);
+}
 .hero2-wrapper {
   height: 70vh;
   display: flex;
@@ -33,6 +46,7 @@ h2 {
   font-size: 8rem;
   margin: 2rem 0;
   font-weight: 700;
+  font-family: Kanit;
 }
 .hero2-wrapper h2 {
   text-align: center;

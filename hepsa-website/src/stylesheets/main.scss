@@ -7,6 +7,11 @@ $bg-color: rgb(0,138,252);
     align-items: center;
 }
 
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit/Kanit-SemiBold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,9 @@ $bg-color: rgb(0,138,252);
 
 h2 {
     color: white;
+    font-family: Kanit;
 }
+
 
 @import "Header2";
 @import "Hero2";
