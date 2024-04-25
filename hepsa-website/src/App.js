@@ -6,6 +6,7 @@ import Products from './components/Products';
 import Contact from './components/Contact';
 import Header2 from './components/Header2';
 import Hero2 from './components/Hero2';
+import SimpleSlider from './components/SlickSlider';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header2 />
       <Hero2 />
       <About />
+      <SimpleSlider />
       <Products />
       <Contact />
       <Footer />

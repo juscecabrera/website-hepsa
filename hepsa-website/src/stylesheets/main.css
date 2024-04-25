@@ -199,6 +199,51 @@ h2 {
   color: white;
 }
 
+.slider-container {
+  background-color: red;
+  margin: 2rem 5rem 7rem 5rem;
+  height: 30rem;
+}
+.slider-container h3 {
+  margin-left: 49.5%;
+}
+.slider-container .slick-dots li {
+  margin: -1rem 2rem;
+}
+.slider-container img {
+  z-index: 1;
+  height: 30rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: -0.35rem;
+  background: linear-gradient(0deg, rgba(0, 1, 0, 0) 0%, rgb(2, 16, 43) 0%, rgba(22, 14, 15, 0.5915616246) 35%, rgba(255, 255, 255, 0.1433823529) 100%);
+}
+.slider-container .black-bg {
+  position: fixed;
+  background: linear-gradient(0deg, rgba(0, 1, 0, 0) 0%, rgb(2, 16, 43) 0%, rgba(22, 14, 15, 0.5915616246) 35%, rgba(255, 255, 255, 0.1433823529) 100%);
+  height: 30rem;
+  width: 100%;
+}
+.slider-container .slider-text-wrapper {
+  position: absolute;
+  color: white;
+  margin: 5rem;
+  z-index: 10;
+}
+.slider-container .slider-text-wrapper h4 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.slider-container .slider-text-wrapper h4 {
+  margin-top: -1rem;
+  transform: translate3d(10%, 0%, 20%);
+}
+.slider-container .slider-text-wrapper p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 576px) {
   .container {
     width: 20rem;
