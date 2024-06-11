@@ -30,10 +30,6 @@ h2 {
   font-family: FugazOne;
   src: url(../fonts/FugazOne-Regular.otf);
 }
-@font-face {
-  font-family: Kanit;
-  src: url(../fonts/Kanit/Kanit-SemiBold.ttf);
-}
 .hero2-wrapper {
   height: 70vh;
   display: flex;

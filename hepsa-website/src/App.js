@@ -15,7 +15,7 @@ function App() {
       <Header2 />
       <Hero2 />
       <About />
-      <SimpleSlider />
+      {/* <SimpleSlider /> */}
       <Products />
       <Contact />
       <Footer />
