@@ -3,7 +3,7 @@ import "../stylesheets/main.css";
 import ContentImg4 from "../images/imgHepsaIndex1.webp";
 import ContentImg5 from "../images/imgHepsaIndex2.webp";
 import ContentImg7 from "../images/imgHepsaIndex3.jpg";
-
+import SimpleSlider from "./SlickSlider";
 
 
 function About () {

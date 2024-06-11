@@ -4,6 +4,9 @@ import emailjs from 'emailjs-com';
 
 function Contact() {
 
+    /*
+    En dev voy a comentarlo para no mandar correos por error
+
     function enviarEmail(e){
         e.preventDefault();
 
@@ -12,17 +15,16 @@ function Contact() {
             alert("Mensaje enviado correctamente!")
         })        
     }
+    */
 
     return(
         <div className="contact-wrapper" id="contactid">
             <div className="contact-text-wrapper">
                 <h2>CONTACTO</h2>
                 <h3 className="contact-h3-1">990 291 981</h3>
-                    {/* <p className="contact-p-1">990 291 981</p> */}
                 <h3 className="contact-h3-2">ventas@hepsa.com.pe</h3>
-                    {/* <p className="contact-p-2">ventas@hepsa.com.pe</p> */}
             </div>
-            <form  onSubmit={enviarEmail} className="contact-input-wrapper">
+            <form /*onSubmit={enviarEmail}*/ className="contact-input-wrapper">
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre"></input>
                 <input type="text" name="apellido" id="apellido" placeholder="Apellido"></input>                
                 <input type="text" name="empresa" id="empresa" placeholder="Empresa"></input>
